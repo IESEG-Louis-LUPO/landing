@@ -1,0 +1,36 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../../images/language.jpg);
+    color: #FF8C00; 
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}  
+
+.banner:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../../images/language.jpg);
+}
+
+.banner h1, .banner h2 {
+    transition: opacity 0.5s;
+}
+
+.banner:hover h1, 
+.banner:hover p {
+    opacity: 0;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-top: 0;
+    color: #FF8C00;
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: #FF8C00;
+    opacity: 1;
+}
